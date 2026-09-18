@@ -1,26 +1,4 @@
-# ## Customer
 
-# Customer represents a customer who can place orders in the retail system.
-
-# ### Attributes
-# - customer_id
-# - name
-# - email
-# - customer_type
-
-# ### Behaviours
-# - Store customer information
-# - Display customer information
-
-# ### Customer Types
-# - Regular
-# - Premium
-# - Corporate
-
-# ### Initial assumptions
-# - Customer ID uniquely identifies a customer.
-# - Customer type determines the customer's pricing/discount behaviour.
-# - Discount rules will be implemented later.
 class Customer:
     def __init__(self, customer_id,name, email, customer_type):
         self.customer_id = customer_id
